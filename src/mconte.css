@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+.img-make-rotate {
+    animation: rotation 8s infinite linear;
+}
+
+.main-conent-nft-all-of-it {
+    font-family: 'Dancing Script', cursive;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
